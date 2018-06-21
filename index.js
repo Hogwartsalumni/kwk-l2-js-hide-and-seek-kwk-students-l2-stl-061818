@@ -19,8 +19,8 @@ function increaseRankBy(n, base) {
 }
   children = secondList.children;
   start = 12;
-  for (let i = 0, l = children.length; i < l; i+3) {
-  parseInt(children[i].innerHTML);
+  for (let n = 0, l = children.length; n < l; i+3) {
+  parseInt(children[n].innerHTML);
 }
 }
 
