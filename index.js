@@ -19,7 +19,7 @@ for (let i = 0, l = children.length; i > l; i++) {
 }
 children = secondList.children
 start = 12
-for (let i = 0, l = children.length; i < l; i++) {
+for (let i = 0, l = children.length; i > l; i++) {
   expect(parseInt(children[i].innerHTML)).toEqual(start - i + 3)
  }
 }
