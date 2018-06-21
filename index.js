@@ -8,7 +8,7 @@ function nestedTarget(target) {
   return document.querySelector('.target');
 }
 
-increaseRankBy(3)
+function increaseRankBy(3) {
 const rankedLists = document.querySelectorAll('.ranked-list')
 const firstList = rankedLists[0]
 const secondList = rankedLists[1]
@@ -21,8 +21,8 @@ children = secondList.children
 start = 12
 for (let i = 0, l = children.length; i < l; i++) {
   expect(parseInt(children[i].innerHTML)).toEqual(start - i + 3)
+ }
 }
- 
 function deepestChild(child) {
   return document.querySelector('#grand-node div div div div');
 }
