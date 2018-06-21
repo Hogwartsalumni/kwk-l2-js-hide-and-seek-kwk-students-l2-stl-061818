@@ -13,6 +13,7 @@ function nestedTarget(target) {
 }
 
 function increaseRankBy(n, base) {
+  return document.querySelector('.ranked-list')
   let parsed = parseInt(n, base);
   if (isNaN(parsed)) { return 0 }
   return parsed * 1;
