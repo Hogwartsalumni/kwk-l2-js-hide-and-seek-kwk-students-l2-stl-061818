@@ -9,13 +9,17 @@ function nestedTarget(target) {
 }
 
 function increaseRankBy(n) {
-  return document.querySelectorAll('.ranked-list');
-  const firstList = rankedLists[0];
-  const secondList = rankedLists[1];
-  for (let i = 0, l = rankedLists.length; i < l; i + 3) {
-  parseInt(rankedLists[i].innerHTML);
+  const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li');
 }
-}
+  for (let i = 0; i < lis.length; i++) {
+    lis[i].innerHTML = (i + 1).toString()
+  }
+//   return document.querySelectorAll('.ranked-list');
+//   const firstList = rankedLists[0];
+//   const secondList = rankedLists[1];
+//   for (let i = 0, l = rankedLists.length; i < l; i + 3) {
+//   parseInt(rankedLists[i].innerHTML);
+// }
 
 function deepestChild(child) {
   return document.querySelector('#grand-node div div div div');
