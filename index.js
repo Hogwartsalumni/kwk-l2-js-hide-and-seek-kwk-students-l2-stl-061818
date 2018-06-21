@@ -10,6 +10,8 @@ function nestedTarget(target) {
 
 function increaseRankBy(n, base) {
   return document.querySelectorAll('.ranked-list')
+  const firstList = rankedLists[0];
+  const secondList = rankedLists[1];
   let parsed = parseInt(n, base);
   if (isNaN(parsed)) { return 0 }
   return parsed * 1;
