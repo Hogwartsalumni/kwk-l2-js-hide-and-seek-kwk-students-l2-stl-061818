@@ -9,11 +9,11 @@ function nestedTarget(target) {
 }
 
 function increaseRankBy(n) {
-  const increase = document.getElementById('#app')
+  const increase = document.getElementById('#app');
   let increase2 = document.querySelectorAll('ul.ranked-list li');
 }
   for (let i = 0; i < lis.length; i++) {
-    lis[i].innerHTML = (i + 1).toString()
+    lis[i].innerHTML = (i + 1).toString();
   }
 //   return document.querySelectorAll('.ranked-list');
 //   const firstList = rankedLists[0];
