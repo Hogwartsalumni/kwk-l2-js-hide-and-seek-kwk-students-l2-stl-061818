@@ -10,7 +10,7 @@ function nestedTarget(target) {
 
 function increaseRankBy(number) {
   return document.querySelector('.ranked-list');
-  
+  for ()
 }
 
 function deepestChild(child) {
