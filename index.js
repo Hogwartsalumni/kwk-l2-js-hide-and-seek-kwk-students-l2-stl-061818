@@ -13,9 +13,9 @@ function nestedTarget(target) {
 }
 
 function increaseRankBy(n, base) {
-  let parsed = parseInt(x, base);
+  let parsed = parseInt(n, base);
   if (isNaN(parsed)) { return 0 }
-  return parsed * 100;
+  return parsed * 1;
 
 function deepestChild(child) {
   return document.querySelector('#grand-node div div div div');
