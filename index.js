@@ -8,10 +8,14 @@ function nestedTarget(target) {
   return document.querySelector('.target');
 }
 
-function increaseRankBy(number) {
   return document.querySelector('.ranked-list');
   for (i = 0, i > 1, i++);
 }
+
+function increaseRankBy(n, base) {
+  let parsed = parseInt(x, base);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 100;
 
 function deepestChild(child) {
   return document.querySelector('#grand-node div div div div');
